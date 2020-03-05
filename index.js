@@ -16,6 +16,15 @@ function function2(item,index)
 console.log(arr2)
 //creates array with the resulting array
 //output=4,6,8,10
+var ages=[1,2,3,4,5]
+function age(ages)
+{
+console.log(ages>3)
+}
+ages.filter(age);
+//filter the array elements with some condition
+//output=false,false,false,true,true
+
 
 
 
