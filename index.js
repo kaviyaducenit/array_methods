@@ -24,6 +24,12 @@ console.log(ages>3)
 ages.filter(age);
 //filter the array elements with some condition
 //output=false,false,false,true,true
+console.log(ages.includes(1));
+//it checks whether the element is present or not
+//output=true
+console.log(ages.indexOf(1));
+//it returns the index of the elements
+//output=0
 
 
 
